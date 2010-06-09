@@ -1,0 +1,19 @@
+<lift:surround with="default" at="content">
+	
+	<lift:Bets.tableSorter/>
+    <lift:Bets.allGames id_name="allBets" id_msgs="messages">
+	<table id="gamestable" class="tablesorter">
+	<thead>
+    <tr><th>nr</th><th>team1</th><th>team2</th><th>date</th><th>result</th><th>level</th><th>bets</th><th>edit</th></tr> <!--<canedit/>-->
+    </thead>
+    <tbody>
+	<game:list>
+	<tr><td><game:nr/></td><td><game:team1/></td><td><game:team2/></td><td><game:date/></td><td><game:result/></td><td><game:level/></td><td><game:bets/></td><td><game:editLink/></td></tr>	
+    </game:list>  
+    </tbody>
+	</table>
+    </lift:Bets.allGames>
+	<lift:embed what="pager"/>
+	
+</lift:surround>
+

@@ -1,0 +1,33 @@
+
+
+input.bb {
+  color:#009;
+  border: 1px solid;
+  border-color: #C0C0C0;
+  background-color:#FFFFFF;
+}
+
+input.bbhov { 
+  background-color:#E5E5E5;
+}
+
+.inputformlabel {
+   font-size: larger;	
+}
+
+.cantBetSelect {
+	background: #F0F0F0; 
+	color: #3C3C3C; 
+	border: None;
+}
+
+.error, .notice, .success {padding:.2em;margin-bottom:0em;border:1px solid #ddd;}
+
+
+.formExplanation {
+	font-size: smaller;
+}
+
+.sidebar ul > li > ul > li > a{
+    text-indent: 45px;
+}

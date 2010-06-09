@@ -1,0 +1,22 @@
+<lift:surround with="default" at="content">
+	<lift:Msgs/>
+	<lift:Users.tableSorter/>
+    <lift:Users.allUsers id_name="allUsers" id_msgs="messages">
+    
+    <h2 class="alt"><user:betstats/>&nbsp;&nbsp;<user:pageHeader/></h2>
+    
+	<table id="userstable" class="tablesorter">
+	<thead>
+    <tr><th>userName</th><th>last Name</th><th>points</th><th>top scorer</th><th>mvp</th><th>champion</th><user:betsHeader/><user:pointsHeader/><th>detail</th></tr>
+    </thead>
+    <tbody>
+	<user:list>
+	<tr><td><user:userName/></td><td><user:lastName/></td><td><user:points/></td><td><user:topscorer/></td><td><user:mvp/></td><td><user:worldchampion/></td><user:bets/><user:betPoints/><td><user:userDetail/></td></tr>	
+    </user:list>  
+    </tbody>
+	</table>
+    </lift:Users.allUsers>
+	<lift:embed what="pager"/>
+	
+</lift:surround>
+

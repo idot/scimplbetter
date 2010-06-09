@@ -1,0 +1,18 @@
+<lift:surround with="default" at="content">
+	<!-- lifted from Lift examples -->
+	<lift:comet type="Chat" name="Other">
+	  <chat:body>
+	      <chat:inputLine>
+	  	     <chat:input/> <chat:submit/>
+	      </chat:inputLine>
+	      <div style="height:300px; overflow:scroll;margin-top:1em" >
+	      <ul style="list-style-type:none" chat:id="na">
+            <chat:list>
+              <li><list:when/> <list:gravatar/>  <list:who/>: <i><list:msg/></i></li>
+            </chat:list>
+          </ul>
+          </div>
+      </chat:body>
+   </lift:comet>
+	
+</lift:surround>

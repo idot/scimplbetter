@@ -1,0 +1,20 @@
+# Set root logger level to DEBUG and its only appender to A1.
+log4j.rootLogger=ERROR, A1
+
+# A1 is set to be a ConsoleAppender.
+#log4j.appender.A1=org.apache.log4j.ConsoleAppender
+log4j.appender.A1=org.apache.log4j.FileAppender
+log4j.appender.A1.File=better.log
+
+# A1 uses PatternLayout
+log4j.appender.A1.layout=org.apache.log4j.PatternLayout
+log4j.appender.A1.layout.ConversionPattern=%-4r [%t] %-5p %c %x - %m%n
+
+log4j.logger.net.sf.cglib=ERROR
+log4j.logger.org.hibernate=ERROR
+log4j.logger.org.hibernate.SQL=ERROR
+log4j.logger.org.springframework=ERROR
+log4j.logger.org.springframework.orm.hibernate3.LocalSessionFactoryBean=ERROR
+log4j.logger.org.springframework.orm.hibernate3.support=ERROR
+log4j.logger.net.sf.ehcache=ERROR
+log4j.logger.com.p6spy=ERROR

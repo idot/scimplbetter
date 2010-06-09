@@ -1,0 +1,7 @@
+level	exact	tendency	nr #must be tab delimited
+group	3	1	0
+last16	4	2	1
+quarter	4	2	2
+semi	9	3	3
+final	12	4	4
+third	3	1	5

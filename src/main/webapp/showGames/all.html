@@ -1,0 +1,22 @@
+<lift:surround with="default" at="content">
+	<lift:Msgs/>
+	<lift:Games.tableSorter/>
+	
+    <lift:Games.allGames id_name="allGames" id_msgs="messages">
+    
+ 	<h2 class="alt"><game:gravatar/>&nbsp;&nbsp;<game:pageHeader/></h2>
+	<table id="gamestable" class="tablesorter">
+	<thead>
+    <tr><th>nr&nbsp;&nbsp;</th><th>team1</th><th>team2</th><th>date</th><th>result</th><th>level</th><game:betsHeader/><game:pointsHeader/><th>detail</th><game:adminHeader/></tr>
+    </thead>
+    <tbody>
+	<game:list>
+	<tr><td><game:nr/></td><td><game:team1/></td><td><game:team2/></td><td><game:date/></td><td><game:result/></td><td><game:level/></td><game:bets/><game:points/><td><game:gamesDetail/></td><game:setResult/></tr>	
+    </game:list>  
+    </tbody>
+	</table>
+    </lift:Games.allGames>
+	<lift:embed what="pager"/>
+	
+</lift:surround>
+

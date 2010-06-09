@@ -1,0 +1,25 @@
+	<!-- one could try to move the form inside of the choose -->
+<lift:surround with="default" at="content">
+
+		<lift:GameEdit.edit form="POST">
+		   <choose:validGame>
+		   <table>
+		   	   <tr><td>gameNr</td><td><game:gameNr/></td></tr>
+		   	   <tr><td>game</td><td><game:name/></td></tr>
+			   <tr><td>first goals</td><td><game:firstGoals/></td></tr>
+			   <tr><td>second goals</td><td><game:secondGoals/></td></tr>
+			   <!-- tr><td>date</td><td><game:date/></td></tr-->
+			   <!-- tr><td>level</td><td><game:level/></td></tr-->
+			   <!--tr><td>result</td><td><game:result/></td></tr-->
+		   </table>
+		   <table>
+		      <tr><td><game:cancel/></td><td><game:submit/></td><td><game:delete/></td></tr>
+		   </table>
+		   </choose:validGame>
+		   <choose:notExist><game:param/></choose:notExist>
+		   
+		</lift:GameEdit.edit>
+    
+
+</lift:surround>
+

@@ -1,0 +1,35 @@
+<lift:surround with="default" at="content">
+		<lift:Msgs/>
+	    <lift:Login.login id_name="login" id_msgs="messages" form="POST">
+        	<h2 class="alt">Please login</h2>
+			<table class="formInput" border="0" cellpadding="3" cellspacing="0">
+				<tr>
+					<td class="inputformlabel alt"><label for="username">username</label></td>
+					<td><login:username/></td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="password">password</label></td>
+					<td><login:password/></td>
+				</tr>
+			</table>
+			<!--  login:recaptcha>
+				<script type="text/javascript" src="http://api.recaptcha.net/challenge?k=6Lf4gboSAAAAAENi9dRG5GmBiCpYiL1F5NNF6pcp">
+				</script>
+
+				<noscript>
+				   <iframe src="http://api.recaptcha.net/noscript?k=6Lf4gboSAAAAAENi9dRG5GmBiCpYiL1F5NNF6pcp"
+				       height="300" width="500" frameborder="0">
+				    </iframe><br>
+				   <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+				   </textarea>
+				   <input type="hidden" name="recaptcha_response_field" 
+				       value="manual_challenge">
+				</noscript>
+			</login:recaptcha -->
+			<table class="formButtons" border="0" cellpadding="3" cellspacing="0">
+				<tr><td><login:submit/></td><td><login:cancel/></td></tr>
+			</table>
+		</lift:Login.login>
+
+</lift:surround>
+

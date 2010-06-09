@@ -1,0 +1,839 @@
+==={{fb|SA}}===		
+SA	player	Moeneeb Josephs
+SA	player	Siboniso Gaxa
+SA	player	Tsepo Masilela
+SA	player	Aaron Mokoena
+SA	player	Anele Ngcongca
+SA	player	MacBeth Sibaya
+SA	player	Lance Davids
+SA	player	Siphiwe Tshabalala
+SA	player	Katlego Mphela
+SA	player	Steven Pienaar
+SA	player	Teko Modise
+SA	player	Reneilwe Letsholonyane
+SA	player	Kagisho Dikgacoi
+SA	player	Matthew Booth
+SA	player	Lucas Thwala
+SA	player	Itumeleng Khune
+SA	player	Bernard Parker
+SA	player	Siyabonga Nomvethe
+SA	player	Surprise Moriri
+SA	player	Bongani Khumalo
+SA	player	Siyabonga Sangweni
+SA	player	Shu-Aib Walters
+SA	player	Thanduyise Khuboni
+{{nat fs end}}		
+		
+==={{fb|Mexico}}===		
+Mexico	player	Óscar Pérez	
+Mexico	player	Francisco Rodríguez	
+Mexico	player	Carlos Salcido	
+Mexico	player	Rafael Márquez	
+Mexico	player	Ricardo Osorio	
+Mexico	player	Gerardo Torrado	
+Mexico	player	Pablo Barrera	
+Mexico	player	Israel Castro	
+Mexico	player	Guillermo Franco	
+Mexico	player	Cuauhtémoc Blanco	
+Mexico	player	Carlos Vela	
+Mexico	player	Paul Aguilar	
+Mexico	player	Guillermo Ochoa	
+Mexico	player	Javier Hernández	
+Mexico	player	Héctor Moreno	
+Mexico	player	Efraín Juárez	
+Mexico	player	Giovani dosSantos	
+Mexico	player	Andrés Guardado	
+Mexico	player	Jonny Magallón	
+Mexico	player	JorgeTorres Nilo	
+Mexico	player	Adolfo Bautista	
+Mexico	player	Alberto Medina	
+Mexico	player	LuisErnesto Michel	
+{{nat fs end}}		
+		
+==={{fb|Uruguay}} ===		
+Uruguay	player	Fernando Muslera
+Uruguay	player	Diego Lugano
+Uruguay	player	Diego Godín
+Uruguay	player	Jorge Fucile
+Uruguay	player	Walter Gargano
+Uruguay	player	Mauricio Victorino
+Uruguay	player	Edinson Cavani
+Uruguay	player	Sebastián Eguren
+Uruguay	player	Luis Suárez
+Uruguay	player	Diego Forlán
+Uruguay	player	Álvaro Pereira
+Uruguay	player	Juan Castillo
+Uruguay	player	Sebastián Abreu
+Uruguay	player	Nicolás Lodeiro
+Uruguay	player	Diego Pérez
+Uruguay	player	Maxi Pereira
+Uruguay	player	Egidio Ríos
+Uruguay	player	Ignacio González
+Uruguay	player	Andrés Scotti
+Uruguay	player	Álvaro Fernández
+Uruguay	player	Sebastián Fernández
+Uruguay	player	Martín Cáceres
+Uruguay	player	Martín Silva
+{{nat fs end}}		
+		
+==={{fb|France}}===		
+France	player	Hugo Lloris
+France	player	Bacary Sagna
+France	player	Éric Abidal
+France	player	Anthony Réveillère
+France	player	William Gallas
+France	player	Marc Planus
+France	player	Franck Ribéry
+France	player	Yoann Gourcuff
+France	player	Djibril Cissé
+France	player	Sidney Govou
+France	player	André-Pierre Gignac
+France	player	Thierry Henry
+France	player	Patrice Evra
+France	player	Jérémy Toulalan
+France	player	Florent Malouda
+France	player	Steve Mandanda
+France	player	Sébastien Squillaci
+France	player	Alou Diarra
+France	player	Abou Diaby
+France	player	Mathieu Valbuena
+France	player	Nicolas Anelka
+France	player	Gaël Clichy
+France	player	Cédric Carrasso
+{{nat fs end}}		
+		
+		
+==={{fb|Argentina}}===		
+Argentina	player	Diego Pozo	
+Argentina	player	Martín Demichelis	
+Argentina	player	Clemente Rodríguez	
+Argentina	player	Nicolás Burdisso	
+Argentina	player	Mario Bolatti	
+Argentina	player	Gabriel Heinze	
+Argentina	player	Ángel DiMaría	
+Argentina	player	JuanSebastián Verón	
+Argentina	player	Gonzalo Higuaín	
+Argentina	player	Lionel Messi	
+Argentina	player	Carlos Tévez	
+Argentina	player	Ariel Garcé	
+Argentina	player	Walter Samuel	
+Argentina	player	Javier Mascherano	
+Argentina	player	Nicolás Otamendi	
+Argentina	player	Sergio Agüero	
+Argentina	player	Jonás Gutiérrez	
+Argentina	player	Martín Palermo	
+Argentina	player	Diego Milito	
+Argentina	player	Maxi Rodríguez	
+Argentina	player	Mariano Andújar	
+Argentina	player	Sergio Romero	
+Argentina	player	Javier Pastore	
+{{nat fs end}}		
+		
+==={{fb|Nigeria}}===		
+Nigeria	player	Vincent Enyeama
+Nigeria	player	Joseph Yobo
+Nigeria	player	Taye Taiwo
+Nigeria	player	Nwankwo Kanu
+Nigeria	player	Rabiu Afolabi
+Nigeria	player	Danny Shittu
+Nigeria	player	Chinedu Obasi
+Nigeria	player	Yakubu Aiyegbeni
+Nigeria	player	Obafemi Martins
+Nigeria	player	Ideye Brown
+Nigeria	player	Peter Odemwingie
+Nigeria	player	Kalu Uche
+Nigeria	player	Ayila Yussuf
+Nigeria	player	Sani Kaita
+Nigeria	player	Dele Adeleye
+Nigeria	player	Austin Ejide
+Nigeria	player	Chidi Odiah
+Nigeria	player	Victor Obinna
+Nigeria	player	Lukman Haruna
+Nigeria	player	Dickson Etuhu
+Nigeria	player	|Uwa Echiéjilé
+Nigeria	player	John Utaka
+Nigeria	player	Dele Aiyenugba
+{{nat fs end}}		
+		
+==={{fb|Korea}}===		
+South Korea	player	Lee Woon-Jae
+South Korea	player	Oh Beom-Seok
+South Korea	player	Kim Hyung-Il
+South Korea	player	Cho Yong-Hyung
+South Korea	player	Kim Nam-Il
+South Korea	player	Kim Bo-Kyung
+South Korea	player	Park Ji-Sung
+South Korea	player	Kim Jung-Woo
+South Korea	player	Ahn Jung-Hwan
+South Korea	player	Park Chu-Young
+South Korea	player	Lee Seung-Ryul
+South Korea	player	Lee Young-Pyo
+South Korea	player	Kim Jae-Sung
+South Korea	player	Lee Jung-Soo
+South Korea	player	Kim Dong-Jin
+South Korea	player	Ki Sung-Yong
+South Korea	player	Lee Chung-Yong
+South Korea	player	Jung Sung-Ryong
+South Korea	player	Yeom Ki-Hun
+South Korea	player	Lee Dong-Gook
+South Korea	player	Kim Young-Kwang
+South Korea	player	Cha Du-Ri
+South Korea	player	Kang Min-Soo
+{{nat fs end}}		
+		
+==={{fb|Greece}}===		
+Greece	player	Kostas Chalkias
+Greece	player	Giourkas Seitaridis
+Greece	player	Christos Patsatzoglou
+Greece	player	Nikos Spiropoulos
+Greece	player	Vangelis Moras
+Greece	player	Alexandros Tziolis
+Greece	player	Georgios Samaras
+Greece	player	Avraam Papadopoulos
+Greece	player	Angelos Charisteas
+Greece	player	Giorgos Karagounis
+Greece	player	Loukas Vyntra
+Greece	player	Alexandros Tzorvas
+Greece	player	Michalis Sifakis
+Greece	player	Dimitris Salpigidis
+Greece	player	Vasilis Torosidis
+Greece	player	Sotirios Kyrgiakos
+Greece	player	Theofanis Gekas
+Greece	player	Sotiris Ninis
+Greece	player	Sokratis Papastathopoulos
+Greece	player	Pantelis Kapetanos
+Greece	player	Kostas Katsouranis
+Greece	player	Stelios Malezas
+Greece	player	Sakis Prittas
+{{nat fs end}}		
+		
+		
+==={{fb|England}}===		
+England	player	David James
+England	player	Glen Johnson
+England	player	Ashley Cole
+England	player	Steven Gerrard
+England	player	Michael Dawson
+England	player	John Terry
+England	player	Aaron Lennon
+England	player	Frank Lampard
+England	player	Peter Crouch
+England	player	Wayne Rooney
+England	player	Joe Cole
+England	player	Robert Green
+England	player	Stephen Warnock
+England	player	Gareth Barry
+England	player	Matthew Upson
+England	player	James Milner
+England	player	Shaun Wright-Phillips
+England	player	Jamie Carragher
+England	player	Jermain Defoe
+England	player	Ledley King
+England	player	Emile Heskey
+England	player	Michael Carrick
+England	player	Joe Hart
+{{nat fs end}}		
+		
+==={{fb|USA}}===		
+USA	player	Tim Howard
+USA	player	Jonathan Spector
+USA	player	Carlos Bocanegra
+USA	player	Michael Bradley
+USA	player	Oguchi Onyewu
+USA	player	Steve Cherundolo
+USA	player	DaMarcus Beasley
+USA	player	Clint Dempsey
+USA	player	Herculez Gomez
+USA	player	Landon Donovan
+USA	player	Stuart Holden
+USA	player	Jonathan Bornstein
+USA	player	Ricardo Clark
+USA	player	Edson Buddle
+USA	player	Jay DeMerit
+USA	player	JoséFrancisco Torres
+USA	player	Jozy Altidore
+USA	player	Brad Guzan
+USA	player	Maurice Edu
+USA	player	Robbie Findley
+USA	player	Clarence Goodson
+USA	player	Benny Feilhaber
+USA	player	Marcus Hahnemann
+{{nat fs g end}}		
+		
+==={{fb|Algeria}}===		
+Algeria	player	Lounès Gaouaoui
+Algeria	player	Madjid Bougherra
+Algeria	player	Nadir Belhadj
+Algeria	player	Antar Yahia
+Algeria	player	Rafik Halliche
+Algeria	player	Yazid Mansouri
+Algeria	player	Ryad Boudebouz
+Algeria	player	Mehdi Lacen
+Algeria	player	Abdelkader Ghezzal
+Algeria	player	Rafik Saïfi
+Algeria	player	Rafik Djebbour
+Algeria	player	Habib Bellaid
+Algeria	player	Karim Matmour
+Algeria	player	Abdelkader Laïfaoui
+Algeria	player	Karim Ziani
+Algeria	player	Faouzi Chaouchi
+Algeria	player	Adlène Guedioura
+Algeria	player	Carl Medjani
+Algeria	player	Hassan Yebda
+Algeria	player	Djamel Mesbah
+Algeria	player	Foued Kadir
+Algeria	player	Djamel Abdoun
+Algeria	player	Raïs M'Bohli
+	{{nat fs end}}	
+		
+==={{fb|Slovenia}}===		
+Slovenia	player	Samir Handanovič
+Slovenia	player	Mišo Brečko
+Slovenia	player	Elvedin Džinič
+Slovenia	player	Marko Šuler
+Slovenia	player	Boštjan Cesar
+Slovenia	player	Branko Ilič
+Slovenia	player	Nejc Pečnik
+Slovenia	player	Robert Koren
+Slovenia	player	Zlatan Ljubijankič
+Slovenia	player	Valter Birsa
+Slovenia	player	Milivoje Novakovič
+Slovenia	player	Jasmin Handanovič
+Slovenia	player	Bojan Jokić
+Slovenia	player	Zlatko Dedič
+Slovenia	player	Rene Krhin
+Slovenia	player	Aleksander Šeliga
+Slovenia	player	Andraž Kirm
+Slovenia	player	Aleksander Radosavljevič
+Slovenia	player	Suad Filekovič
+Slovenia	player	Andrej Komac
+Slovenia	player	Dalibor Stevanovič
+Slovenia	player	Matej Mavrič
+Slovenia	player	Tim Matavž
+{{nat fs end}}		
+		
+==[[2010 FIFA World Cup Group D|Group D		
+==={{fb|Germany}} ===		
+Germany	player	Manuel Neuer
+Germany	player	Marcell Jansen
+Germany	player	Arne Friedrich
+Germany	player	Dennis Aogo
+Germany	player	Serdar Tasci
+Germany	player	Sami Khedira
+Germany	player	Bastian Schweinsteiger
+Germany	player	Mesut Özil
+Germany	player	Stefan Kießling
+Germany	player	Lukas Podolski
+Germany	player	Miroslav Klose
+Germany	player	Tim Wiese
+Germany	player	Thomas Müller
+Germany	player	Holger Badstuber
+Germany	player	Piotr Trochowski
+Germany	player	Philipp Lahm
+Germany	player	Per Mertesacker
+Germany	player	Toni Kroos
+Germany	player	Cacau
+Germany	player	Jérôme Boateng
+Germany	player	Marko Marin
+Germany	player	Hans-Jörg Butt
+Germany	player	Mario Gómez
+{{nat fs end}}		
+		
+==={{fb|Australia}}===		
+Australia	player	Mark Schwarzer
+Australia	player	Lucas Neill
+Australia	player	Craig Moore
+Australia	player	Tim Cahill
+Australia	player	Jason Culina
+Australia	player	Michael Beauchamp
+Australia	player	Brett Emerton
+Australia	player	Luke Wilkshire
+Australia	player	Joshua Kennedy
+Australia	player	Harry Kewell
+Australia	player	Scott Chipperfield
+Australia	player	Adam Federici
+Australia	player	Vince Grella
+Australia	player	Brett Holman
+Australia	player	Mile Jedinak
+Australia	player	Carl Valeri
+Australia	player	Nikita Rukavytsya
+Australia	player	Brad Jones
+Australia	player	Richard Garcia
+Australia	player	Mark Milligan
+Australia	player	David Carney
+Australia	player	Dario Vidošić
+Australia	player	Mark Bresciano
+{{nat fs end}}		
+		
+==={{fb|Serbia}}===		
+Serbia	player	Vladimir Stojković
+Serbia	player	Antonio Rukavina
+Serbia	player	Aleksandar Kolarov
+Serbia	player	Gojko Kačar
+Serbia	player	Nemanja Vidić
+Serbia	player	Branislav Ivanović
+Serbia	player	Zoran Tošić
+Serbia	player	Danko Lazović
+Serbia	player	Marko Pantelić
+Serbia	player	Dejan Stanković
+Serbia	player	Nenad Milijaš
+Serbia	player	Bojan Isailović
+Serbia	player	Aleksandar Luković
+Serbia	player	Milan Jovanović
+Serbia	player	Nikola Žigić
+Serbia	player	Ivan Obradović
+Serbia	player	Miloš Krasić
+Serbia	player	Miloš Ninković
+Serbia	player	Radosav Petrović
+Serbia	player	Neven Subotić
+Serbia	player	Dragan Mrđa
+Serbia	player	Zdravko Kuzmanović
+Serbia	player	Anđelko Đuričić
+{{nat fs end}}		
+		
+==={{fb|Ghana}}===		
+Ghana	player	Daniel Adjei
+Ghana	player	Hans Sarpei
+Ghana	player	Asamoah Gyan
+Ghana	player	John Paintsil
+Ghana	player	John Mensah
+Ghana	player	Anthony Annan
+Ghana	player	Samuel Inkoom
+Ghana	player	Jonathan Mensah
+Ghana	player	Derek Boateng
+Ghana	player	Stephen Appiah
+Ghana	player	Sulley Muntari
+Ghana	player	Prince Tagoe
+Ghana	player	André Ayew
+Ghana	player	Matthew Amoah
+Ghana	player	Isaac Vorsah
+Ghana	player	Stephen Ahorlu
+Ghana	player	AbdulRahim Ayew
+Ghana	player	Dominic Adiyiah
+Ghana	player	Lee Addy
+Ghana	player	Quincy Owusu-Abeyie
+Ghana	player	Kwadwo Asamoah
+Ghana	player	Richard Kingson
+Ghana	player	Kevin-Prince Boateng
+{{nat fs end}}		
+		
+		
+==={{fb|Netherlands}}===		
+Netherlands	player	Maarten Stekelenburg
+Netherlands	player	Gregory vanderWiel
+Netherlands	player	John Heitinga
+Netherlands	player	Joris Mathijsen
+Netherlands	player	Giovanni vanBronckhorst
+Netherlands	player	Mark vanBommel
+Netherlands	player	Dirk Kuyt
+Netherlands	player	Nigel deJong
+Netherlands	player	Robin vanPersie
+Netherlands	player	Wesley Sneijder
+Netherlands	player	Arjen Robben
+Netherlands	player	Khalid Boulahrouz
+Netherlands	player	André Ooijer
+Netherlands	player	Demy deZeeuw
+Netherlands	player	Edson Braafheid
+Netherlands	player	Michel Vorm
+Netherlands	player	Eljero Elia
+Netherlands	player	Stijn Schaars
+Netherlands	player	Ryan Babel
+Netherlands	player	Ibrahim Afellay
+Netherlands	player	Klaas-Jan Huntelaar
+Netherlands	player	Sander Boschker
+Netherlands	player	Rafael vanderVaart
+{{nat fs end}}		
+		
+==={{fb|Denmark}}===		
+Denmark	player	Thomas Sørensen
+Denmark	player	Christian Poulsen
+Denmark	player	Simon Kjær
+Denmark	player	Daniel Agger
+Denmark	player	William Kvist
+Denmark	player	Lars Jacobsen
+Denmark	player	Daniel Jensen
+Denmark	player	Jesper Grønkjær
+Denmark	player	JonDahl Tomasson
+Denmark	player	Martin Jørgensen
+Denmark	player	Nicklas Bendtner
+Denmark	player	Thomas Kahlenberg
+Denmark	player	Per Krøldrup
+Denmark	player	Jakob Poulsen
+Denmark	player	Simon Poulsen
+Denmark	player	Stephan Andersen
+Denmark	player	Mikkel Beckmann
+Denmark	player	Søren Larsen
+Denmark	player	Dennis Rommedahl
+Denmark	player	Thomas Enevoldsen
+Denmark	player	Christian Eriksen
+Denmark	player	Jesper Christiansen
+Denmark	player	Patrick Mtiliga
+{{nat fs end}}		
+		
+==={{fb|Japan}}===		
+Japan	player	Seigo Narazaki
+Japan	player	Yuki Abe
+Japan	player	Yūichi Komano
+Japan	player	MarcusTulio Tanaka
+Japan	player	Yuto Nagatomo
+Japan	player	Atsuto Uchida
+Japan	player	Yasuhito Endō
+Japan	player	Daisuke Matsui
+Japan	player	Shinji Okazaki
+Japan	player	Shunsuke Nakamura
+Japan	player	Keiji Tamada
+Japan	player	Kisho Yano
+Japan	player	Daiki Iwamasa
+Japan	player	Kengo Nakamura
+Japan	player	Yasuyuki Konno
+Japan	player	Yoshito Ōkubo
+Japan	player	Makoto Hasebe
+Japan	player	Keisuke Honda
+Japan	player	Takayuki Morimoto
+Japan	player	Junichi Inamoto
+Japan	player	Eiji Kawashima
+Japan	player	Yuji Nakazawa
+Japan	player	Yoshikatsu Kawaguchi
+{{nat fs end}}		
+		
+==={{fb|Cameroon}}===		
+Cameroon	player	Carlos Kameni
+Cameroon	player	Benoît Assou-Ekotto
+Cameroon	player	Nicolas N'Koulou
+Cameroon	player	Rigobert Song
+Cameroon	player	Sébastien Bassong
+Cameroon	player	Alexandre Song
+Cameroon	player	Landry N'Guémo
+Cameroon	player	Geremi Njitap
+Cameroon	player	Samuel Eto'o
+Cameroon	player	Achille Emana
+Cameroon	player	Jean Makoun
+Cameroon	player	Gaëtan Bong
+Cameroon	player	Eric Choupo-Moting
+Cameroon	player	Aurélien Chedjou
+Cameroon	player	Pierre Webó
+Cameroon	player	Souleymanou Hamidou
+Cameroon	player	Mohammadou Idrissou
+Cameroon	player	Eyong Enoh
+Cameroon	player	Stephane Mbia
+Cameroon	player	Georges Mandjeck
+Cameroon	player	Joel Matip
+Cameroon	player	GuyN'dy Assembé
+Cameroon	player	Vincent Aboubakar
+{{nat fs end}}		
+		
+		
+==={{fb|Italy}}===		
+Italy	player	Gianluigi Buffon
+Italy	player	Christian Maggio
+Italy	player	Domenico Criscito
+Italy	player	Giorgio Chiellini
+Italy	player	Fabio Cannavaro
+Italy	player	Daniele DeRossi
+Italy	player	Simone Pepe
+Italy	player	Gennaro Gattuso
+Italy	player	Vincenzo Iaquinta
+Italy	player	Antonio DiNatale
+Italy	player	Alberto Gilardino
+Italy	player	Federico Marchetti
+Italy	player	Salvatore Bocchetti
+Italy	player	Morgan DeSanctis
+Italy	player	Claudio Marchisio
+Italy	player	Mauro Camoranesi
+Italy	player	Angelo Palombo
+Italy	player	Fabio Quagliarella
+Italy	player	Gianluca Zambrotta
+Italy	player	Giampaolo Pazzini
+Italy	player	Andrea Pirlo
+Italy	player	Riccardo Montolivo
+Italy	player	Leonardo Bonucci
+{{nat fs end}}		
+		
+==={{fb|Paraguay}}===		
+Paraguay	player	Justo Villar
+Paraguay	player	Darío Verón
+Paraguay	player	Claudio Morel
+Paraguay	player	Denis Caniza
+Paraguay	player	JulioCésar Cáceres
+Paraguay	player	Carlos Bonet
+Paraguay	player	Oscar Cardozo
+Paraguay	player	Édgar Barreto
+Paraguay	player	RoqueSanta Cruz
+Paraguay	player	Édgar Benítez
+Paraguay	player	Jonathan Santana
+Paraguay	player	Diego Barreto
+Paraguay	player	Enrique Vera
+Paraguay	player	Paulo daSilva
+Paraguay	player	Víctor Cáceres
+Paraguay	player	Cristian Riveros
+Paraguay	player	Aureliano Torres
+Paraguay	player	Nelson Valdez
+Paraguay	player	Lucas Barrios
+Paraguay	player	Néstor Ortigoza
+Paraguay	player	Antolín Alcaraz
+Paraguay	player	Aldo Bobadilla
+Paraguay	player	Rodolfo Gamarra
+{{nat fs end}}		
+		
+==={{fb|New Zealand}}===		
+New Zealand	player	Mark Paston
+New Zealand	player	Ben Sigmund
+New Zealand	player	Tony Lochhead
+New Zealand	player	Winston Reid
+New Zealand	player	Ivan Vicelich
+New Zealand	player	Ryan Nelsen
+New Zealand	player	Simon Elliott
+New Zealand	player	Tim Brown
+New Zealand	player	Shane Smeltz
+New Zealand	player	Chris Killen
+New Zealand	player	Leo Bertos
+New Zealand	player	Glen Moss
+New Zealand	player	Andy Barron
+New Zealand	player	Rory Fallon
+New Zealand	player	Michael McGlinchey
+New Zealand	player	Aaron Clapham
+New Zealand	player	David Mulligan
+New Zealand	player	Andrew Boyens
+New Zealand	player	Tommy Smith
+New Zealand	player	Chris Wood
+New Zealand	player	Jeremy Christie
+New Zealand	player	Jeremy Brockie
+New Zealand	player	James Bannatyne
+{{nat fs end}}		
+		
+==={{fb|Slovakia}}===		
+Slovakia	player	Ján Mucha
+Slovakia	player	Peter Pekarík
+Slovakia	player	Martin Škrtel
+Slovakia	player	Marek Čech
+Slovakia	player	Radoslav Zabavník
+Slovakia	player	Zdeno Štrba
+Slovakia	player	Vladimír Weiss
+Slovakia	player	Ján Kozák
+Slovakia	player	Stanislav Šesták
+Slovakia	player	Marek Sapara
+Slovakia	player	Róbert Vittek
+Slovakia	player	Dušan Perniš
+Slovakia	player	Filip Hološko
+Slovakia	player	Martin Jakubko
+Slovakia	player	Miroslav Stoch
+Slovakia	player	Ján Ďurica
+Slovakia	player	Marek Hamšík
+Slovakia	player	Erik Jendrišek
+Slovakia	player	Juraj Kucka
+Slovakia	player	Kamil Kopúnek
+Slovakia	player	Kornel Saláta
+Slovakia	player	Martin Petráš
+Slovakia	player	Dušan Kuciak
+{{nat fs end}}		
+		
+		
+==={{fb|Brazil}}===		
+Brazil	player	Júlio César
+Brazil	player	Maicon Sisenando
+Brazil	player	Lúcio
+Brazil	player	Juan dosSantos
+Brazil	player	Felipe Melo
+Brazil	player	Michel Bastos
+Brazil	player	Elano
+Brazil	player	Gilberto Silva
+Brazil	player	Luís Fabiano
+Brazil	player	Kaká
+Brazil	player	Robinho
+Brazil	player	Heurelho Gomes
+Brazil	player	Daniel Alves
+Brazil	player	Luisão
+Brazil	player	Thiago daSilva
+Brazil	player	Gilberto daSilvaMelo
+Brazil	player	Josué deOliveira
+Brazil	player	Ramires
+Brazil	player	Júlio Baptista
+Brazil	player	José Kléberson
+Brazil	player	Nilmar daSilva
+Brazil	player	Doniéber Marangon
+Brazil	player	Grafite
+{{nat fs end}}		
+		
+		
+North Korea	player	Ri Myong-Guk
+North Korea	player	Cha Jong-Hyok
+North Korea	player	Ri Jun-Il
+North Korea	player	Pak Nam-Chol
+North Korea	player	Ri Kwang-Chon
+North Korea	player	Kim Kum-Il
+North Korea	player	An Chol-Hyok
+North Korea	player	Ji Yun-Nam
+North Korea	player	Jong Tae-Se
+North Korea	player	Hong Yong-Jo
+North Korea	player	Mun In-Guk
+North Korea	player	Choe Kum-Chol
+North Korea	player	Pak Chol-Jin
+North Korea	player	Pak Nam-Chol
+North Korea	player	Kim Yong-Jun
+North Korea	player	Nam Song-Chol
+North Korea	player	Kim Myong-Gil
+North Korea	player	Ri Chol-Myong
+North Korea	player	Kim Myong-Won
+North Korea	player	Ri Kwang-Hyok
+North Korea	player	Kim Kyong-Il
+North Korea	player	Pak Sung-Hyok
+{{nat fs end}}		
+		
+==={{fb|Côte d'Ivoire}}===		
+Ivory Coast	player	Boubacar Barry
+Ivory Coast	player	Benjamin Angoua
+Ivory Coast	player	Arthur Boka
+Ivory Coast	player	Kolo Touré
+Ivory Coast	player	Didier Zokora
+Ivory Coast	player	Steve Gohouri
+Ivory Coast	player	Seydou Doumbia
+Ivory Coast	player	Salomon Kalou
+Ivory Coast	player	Cheick Tioté
+Ivory Coast	player	Gervais YaoKouassi
+Ivory Coast	player	Didier Drogba
+Ivory Coast	player	Jean-Jacques Gosso
+Ivory Coast	player	Koffi Romaric
+Ivory Coast	player	Emmanuel Koné
+Ivory Coast	player	Aruna Dindane
+Ivory Coast	player	Aristide Zogbo
+Ivory Coast	player	Siaka Tiéné
+Ivory Coast	player	Kader Keïta
+Ivory Coast	player	Yaya Touré
+Ivory Coast	player	Guy Demel
+Ivory Coast	player	Emmanuel Eboué
+Ivory Coast	player	Sol Bamba
+Ivory Coast	player	Daniel Yeboah
+{{nat fs end}}		
+		
+==={{fb|Portugal}}===		
+Portugal	player	Eduardo dosReisCarvalho
+Portugal	player	Bruno Alves
+Portugal	player	Paulo Ferreira
+Portugal	player	Rolando Rolando
+Portugal	player	Duda Duda
+Portugal	player	Ricardo Carvalho
+Portugal	player	Cristiano Ronaldo
+Portugal	player	Pedro Mendes
+Portugal	player	Liédson
+Portugal	player	Danny Alves
+Portugal	player	Simão Sabrosa
+Portugal	player	Beto Beto
+Portugal	player	Miguel Monteiro
+Portugal	player	Miguel Veloso
+Portugal	player	Pepe Pepe
+Portugal	player	Raul Meireles
+Portugal	player	Nani Nani
+Portugal	player	Hugo Almeida
+Portugal	player	Tiago Mendes
+Portugal	player	Deco
+Portugal	player	Ricardo Costa
+Portugal	player	Daniel Fernandes
+Portugal	player	Fábio Coentrão
+{{nat fs end}}		
+		
+		
+==={{fb|Spain}}===		
+Spain	player	Iker Casillas
+Spain	player	Raúl Albiol
+Spain	player	Gerard Piqué
+Spain	player	Carlos Marchena
+Spain	player	Carles Puyol
+Spain	player	Andrés Iniesta
+Spain	player	David Villa
+Spain	player	Xavi
+Spain	player	Fernando Torres
+Spain	player	Cesc Fàbregas
+Spain	player	Joan Capdevila
+Spain	player	Víctor Valdés
+Spain	player	JuanManuel Mata
+Spain	player	Xabi Alonso
+Spain	player	Sergio Ramos
+Spain	player	Sergio Busquets
+Spain	player	Álvaro Arbeloa
+Spain	player	PedroRodríguez Ledesma
+Spain	player	Fernando Llorente
+Spain	player	Javi Martínez
+Spain	player	David Silva
+Spain	player	Jesús Navas
+Spain	player	Pepe Reina
+{{nat fs end}}		
+		
+==={{fb|Switzerland}}===		
+Switzerland	player	Diego Benaglio
+Switzerland	player	Stephan Lichtsteiner
+Switzerland	player	Ludovic Magnin
+Switzerland	player	Philippe Senderos
+Switzerland	player	Steve vonBergen
+Switzerland	player	Benjamin Huggel
+Switzerland	player	Tranquillo Barnetta
+Switzerland	player	Gökhan Inler
+Switzerland	player	Alexander Frei
+Switzerland	player	Blaise Nkufo
+Switzerland	player	Valon Behrami
+Switzerland	player	Marco Wölfli
+Switzerland	player	Stéphane Grichting
+Switzerland	player	Marco Padalino
+Switzerland	player	Hakan Yakin
+Switzerland	player	Gelson Fernandes
+Switzerland	player	Reto Ziegler
+Switzerland	player	Albert Bunjaku
+Switzerland	player	Eren Derdiyok
+Switzerland	player	Pirmin Schwegler
+Switzerland	player	Johnny Leoni
+Switzerland	player	Mario Eggimann
+Switzerland	player	Xherdan Shaqiri
+{{nat fs end}}		
+		
+==={{fb|Honduras}}===		
+Honduras	player	Ricardo Canales
+Honduras	player	Osman Chávez
+Honduras	player	Maynor Figueroa
+Honduras	player	Johnny Palacios
+Honduras	player	Víctor Bernárdez
+Honduras	player	Hendry Thomas
+Honduras	player	Ramón Núñez
+Honduras	player	Wilson Palacios
+Honduras	player	Carlos Pavón
+Honduras	player	JulioCésar deLeón
+Honduras	player	David Suazo
+Honduras	player	Georgie Welcome
+Honduras	player	Roger Espinoza
+Honduras	player	Oscar García
+Honduras	player	Walter Martínez
+Honduras	player	Mauricio Sabillón
+Honduras	player	Edgar Álvarez
+Honduras	player	Noel Valladares
+Honduras	player	Danilo Turcios
+Honduras	player	Amado Guevara
+Honduras	player	Emilio Izaguirre
+Honduras	player	Donis Escober
+Honduras	player	Sergio Mendoza
+{{nat fs end}}		
+		
+==={{fb|Chile}} ===		
+Chile	player	Claudio Bravo
+Chile	player	Ismael Fuentes
+Chile	player	Waldo Ponce
+Chile	player	Mauricio Isla
+Chile	player	Pablo Contreras
+Chile	player	Carlos Carmona
+Chile	player	Alexis Sánchez
+Chile	player	Arturo Vidal
+Chile	player	Humberto Suazo
+Chile	player	Jorge Valdivia
+Chile	player	Mark González
+Chile	player	Miguel Pinto
+Chile	player	Marco Estrada
+Chile	player	Matías Fernández
+Chile	player	Jean Beausejour
+Chile	player	Fabián Orellana
+Chile	player	Gary Medel
+Chile	player	Gonzalo Jara
+Chile	player	Gonzalo Fierro
+Chile	player	Rodrigo Millar
+Chile	player	Rodrigo Tello
+Chile	player	Esteban Paredes
+Chile	player	LuisMarín Baharona
+{{nat fs end}}		
+
+

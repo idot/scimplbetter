@@ -1,0 +1,23 @@
+<lift:surround with="default" at="content">
+
+    <lift:Winners.announce id_name="winners" id_msgs="messages">
+    
+    <h2 class="alt">The <winners:title/> are:</h2>
+    
+	<table id="winnertable">
+	<thead>
+    <tr><th>icon</th><th>rank</th><th>userName</th><th>first Name</th><th>last Name</th><th>points</th><th>bets</th></tr>
+    </thead>
+    <tbody>
+	<winners:list>
+	<tr><td><winners:gravatar/></td><td><winners:rank/></td><td><winners:userName/></td><td><winners:firstName/></td><td><winners:lastName/></td><td><winners:points/></td><td><winners:bets/></td></tr>	
+    </winners:list>  
+    </tbody>
+	</table>
+	
+	<h2 class="alt"><winners:congrats/></h2>
+    </lift:Winners.announce>
+
+	
+</lift:surround>
+

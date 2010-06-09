@@ -1,0 +1,50 @@
+1	Lionel Messi, Argentina
+2 	Cristiano Ronaldo, Portugal
+3 	Wayne Rooney, England
+4 	Kaka, Brazil
+5 	Xavi, Spain
+6 	Didier Drogba, Ivory Coast
+7 	Andres Iniesta, Spain
+8 	Fernando Torres, Spain
+9 	Steven Gerrard, England
+10 	Michael Essien, Ghana
+11 	David Villa, Spain
+12 	Franck Ribery, France
+13 	Samuel Eto'o, Cameroon
+14 	Luis Fabiano, Brazil
+15 	Iker Casillas, Spain
+16 	Cesc Fabregas, Spain
+17 	Gianluigi Buffon, Italy
+18 	Dani Alves, Brazil
+19 	Nemanja Vidic, Serbia
+20 	Wesley Sneijder, Netherlands
+21 	Maicon, Brazil
+22 	Frank Lampard, England
+23 	Andrea Pirlo, Italy
+24 	Carlos Tevez, Argentina
+25 	Robin vanPersie, Netherlands
+26 	Gonzalo Higuain, Argentina
+27 	Diego Forlan, Uruguay
+28 	Thierry Henry, France
+29 	Sergio Aguero, Argentina
+30 	Michael Ballack, Germany
+31 	Julio Cesar, Brazil
+32 	Arjen Robben, Netherlands
+33 	Gerard Pique, Spain
+34 	Miroslav Klose, Germany
+35 	Lucio, Brazil
+36 	Javier Mascherano, Argentina
+37 	John Terry, England
+38 	David Silva, Spain
+39 	Carles Puyol, Spain
+40 	Nicolas Anelka, France
+41 	Ashley Cole, England
+42 	Patrice Evra, France
+43 	Marek Hamsik, Slovakia
+44 	Karim Benzema, France
+45 	Yoann Gourcuff, France
+46 	Daniele DeRossi, Italy
+47 	Philipp Lahm, Germany
+48 	Yaya Toure, Ivory Coast
+49 	Giorgio Chiellini, Italy
+50 	Landon Donovan, USA

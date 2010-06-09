@@ -1,0 +1,97 @@
+<lift:surround with="default" at="content">
+		<div><lift:Msgs/></div>
+		<div><lift:Msg id="detailsNotice"/></div>
+        <lift:UserDetails.details id_name="preferences" id_msgs="messages" form="POST">
+        	<div class="alt column span-9"><h2 class="alt"><details:gravatar/>&nbsp;&nbsp;<details:username/>'s details </h2></div>
+			<table class="formInput column span-15 last" border="0" cellpadding="3" cellspacing="0">
+				<tr>
+					<td class="inputformlabel alt"><label for="firstname">username</label></td>
+					<td><details:username/></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="points">points</label></td>
+					<td><details:points/></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="firstname">first name</label></td>
+					<td><details:firstname/></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="lastname">last name</label></td>
+					<td><details:lastname/></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="email">email</label></td>
+					<td><details:email/></td>
+					<td><lift:Msg id="email" errorClass="error" /></td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="gravataremail">gravatar email</label></td>
+					<td><details:gravataremail/></td>
+					<td class="formExplanation">you can put your <a href="http://en.gravatar.com">gravatar email here</a></td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="gravatarselect">gravatar default</label></td>
+					<td><details:gravatardisplay/></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="institute">institute</label></td>
+					<td><details:institute/></td>
+					<td class="formExplanation"></td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="emailExcel">send email</label></td>
+					<td><details:sendExcel/></td>
+					<td class="formExplanation">send email after bet closes</td>
+				</tr>
+				<tr>
+					<td><details:betsLink/></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<p></p>
+			<h3 class="alt column span-9">special bets</h3>
+			<p class="column span-9">You can change these special bets only until 1h before the world cup starts!</p>
+			<table class="column span-9">
+				<tr><td class="inputformlabel alt"><label for="goalgetter">top scorer</label></td>
+					<td><details:topscorerTeam/></td>
+					<td><details:topscorerPlayer/></td>
+					
+				</tr>
+				<tr><td class="inputformlabel alt"><label for="mvp">MVP</label></td>
+					<td><details:mvpTeam/></td>
+					<td><details:mvpPlayer/></td>
+				</tr>
+				<tr><td class="inputformlabel alt"><label for="bestteam">world champion</label></td>
+					<td><details:bestTeam/></td>
+					<td></td>
+				</tr>
+			</table>
+			<h4 class="alt column span-9">semifinalists</h4>
+			<table class="column span-9">
+				<tr><td class="inputformlabel alt"><label for="semifinal1">semifinalist1</label></td>
+					<td><details:semifinal1/></td>
+				</tr>
+				<tr><td class="inputformlabel alt"><label for="semifinal2">semifinalist2</label></td>
+					<td><details:semifinal2/></td>
+				</tr>
+				<tr><td class="inputformlabel alt"><label for="semifinal3">semifinalist3</label></td>
+					<td><details:semifinal3/></td>
+				</tr>
+				<tr><td class="inputformlabel alt"><label for="semifinal4">semifinalist4</label></td>
+					<td><details:semifinal4/></td>
+				</tr>
+			</table>
+			<table class="alt column span-18 formButtons" border="0" cellpadding="3" cellspacing="0">
+				<tr><td><details:submit/></td><td><details:cancel/></td><td><details:changePassword/></td></tr>
+			</table>
+		</lift:UserDetails.details>
+
+</lift:surround>
+

@@ -1,0 +1,26 @@
+<lift:surround with="default" at="content">
+		
+        <lift:ChangePassword.resetRequest id_name="login" id_msgs="messages" form="POST">
+        	<div class="helpText">
+        	<h2 class="formHeader">Forgotten your password?</h2>
+        	<ol>
+        		<li>Fill in your email address below.</li>
+        		<li>We’ll email you a password reset link.</li>
+        		<li>Type in your new password on our website.</li>
+        	</ol>
+        	</div>
+			<table class="formInput" border="0" cellpadding="3" cellspacing="0">
+				<tr>
+					<td><label for="email">email</label></td>
+					<td><resetRequest:email/></td>
+					<td class="formExplanation">Type in the email address you used when you registered. We'll send you a link to reset your password.</td>
+				</tr>
+			</table>		
+			<!-- TODO:reCaptcha -->		
+			<table class="formButtons" border="0" cellpadding="3" cellspacing="0">
+				<tr><td><resetRequest:submit/></td><td><resetRequest:cancel/></td></tr>
+			</table>
+		</lift:ChangePassword.resetRequest>
+
+</lift:surround>
+

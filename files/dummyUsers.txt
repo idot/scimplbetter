@@ -1,0 +1,8 @@
+username1	firstName1	lastName1	email1@com.com	password1	false
+username2	firstName2	lastName2	email2@com.com	password2	false
+username3	firstName3	lastName3	email3@com.com	password3	false
+username4	firstName4	lastName4	email4@com.com	password4	false
+username5	firstName5	lastName5	email5@com.com	password5	false
+username6	firstName6	lastName6	email6@com.com	password6	false
+username7	firstName7	lastName7	email7@com.com	password7	false
+username8	firstName8	lastName8	email8@com.com	password8	admin

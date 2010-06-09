@@ -1,0 +1,42 @@
+<lift:surround with="default" at="content">
+		<lift:Msgs/>
+        <lift:Register.register id_name="login" id_msgs="messages" form="POST">
+        	<h2 class="alt">register new user</h2>
+			<table class="formInput" border="0" cellpadding="3" cellspacing="0">
+				<tr>
+					<td class="inputformlabel alt"><label for="username">username</label></td>
+					<td><register:username/></td>
+					<td><lift:Msg id="username" errorClass="error" /></td>
+					<td class="formExplanation">Min 3, Max 15, only letters and numbers.</td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="email">email</label></td>
+					<td><register:email/></td>
+					<td><lift:Msg id="email" errorClass="error" /></td>
+					<td class="formExplanation">Please register a valid email. You need it for e.g. password reset.</td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="password">password</label></td>
+					<td><register:password/></td>
+					<td><lift:Msg id="password" errorClass="error" /></td>
+					<td class="formExplanation">&nbsp;</td>
+				</tr>
+				<tr>
+					<td class="inputformlabel alt"><label for="confirmpassword">confirm password</label></td>
+					<td><register:confirmpassword/></td>
+					<td><lift:Msg id="confirmation" errorClass="error" /></td>
+					<td class="formExplanation">&nbsp;</td>
+				</tr>
+			</table>
+			<div class="explanation">
+			<div>Please use a strong password. The game takes place on the internet and everybody has access to the login prompt.</div>
+			<a href="http://www.econsultant.com/articles/how-to-create-a-strong-password.html">how to create strong passwords</a>
+			</div>
+			
+			<table class="formButtons" border="0" cellpadding="3" cellspacing="0">
+				<tr><td><register:submit/></td><td><register:cancel/></td></tr>
+			</table>
+		</lift:Register.register>
+
+</lift:surround>
+
