@@ -20,12 +20,12 @@ The actual key is in files/levels.txt and determines at runtime the points/round
 ## install
 
 #for testing (in memory db, dummy users, dummy bets):
-1. download by cloning git clone ...
+1. download by cloning git clone git://github.com/idot/scimplbetter.git
 2. cd into git dir
 3. mvn jetty:run
 
 #for real (real db, your users):
-1. download by cloning git clone ...
+1. download by cloning git clone git://github.com/idot/scimplbetter.git
 2. cd into git dir
 3. change src/main/resources/META-INF/persistence.xml 
    your db proberties + 
