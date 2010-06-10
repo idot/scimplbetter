@@ -19,6 +19,9 @@ import org.apache.poi.hssf.util.HSSFColor
 import org.apache.poi.ss.usermodel.CellStyle
 
 import at.idot.scimplbetter.model.Game
+import at.idot.scimplbetter.model.SpecialBet
+import at.idot.scimplbetter.model.Team
+import at.idot.scimplbetter.model.Player
 
 class ExcelData {
 	val creator = new UserRowCreator()
@@ -35,10 +38,65 @@ class ExcelData {
 	  fillSheet(wb, "betSecondTeamGoals", 4)
 	  fillSheet(wb, "resultFirstTeamGoals", 5)
 	  fillSheet(wb, "resultSecondTeamGoals", 6)
+	  fillSpecialBets(wb, 7)
 	  var out = new ByteArrayOutputStream()
 	  wb.write(out)
 	  out.close()
 	  out.toByteArray
+	}
+	
+	def fillSpecialBets(wb: HSSFWorkbook, nr: Int){
+		val s = wb.createSheet()
+//		 declare a row object reference
+	//	val HSSFRow r = null
+		//		 declare a cell object reference
+	//	HSSFCell c = null
+		//		 create 3 cell styles
+		val userHeading = wb.createCellStyle()
+		val pointsCell = wb.createCellStyle()
+		pointsCell.setBorderRight(CellStyle.BORDER_THIN )
+		userHeading.setDataFormat(HSSFDataFormat.getBuiltinFormat("text"))
+		userHeading.setBorderBottom(CellStyle.BORDER_THIN)
+		wb.setSheetName(nr, "special Bets")
+
+		val r = s.createRow(0)		
+		r.setHeightInPoints(100)
+		val headings = Seq("User","mvp","topScorer","champion","semifinalist","semifinalist","semifinalist","semifinalist")
+		for((h,index) <- headings.zipWithIndex ){
+			val c = r.createCell(index)
+			c.setCellStyle( userHeading )
+			c.setCellValue(new HSSFRichTextString(h))
+		}
+		for( (ur,rowNr) <- userRows.zipWithIndex.map(t => (t._1, t._2+1)) ){
+			val r = s.createRow(rowNr)
+			createRow(r, ur)	
+		}
+	}
+	
+	def createRow(row: HSSFRow, userRow: UserRow){
+		val user = userRow.user 
+		val c = row.createCell(0)
+		c.setCellValue(userRow.user.userName)
+		createCell(row, 1, userRow.user.specialBet.mvp )
+		createCell(row, 2, userRow.user.specialBet.topscorer )
+		createCell(row, 3, userRow.user.specialBet.winningTeam )
+		createCell(row, 4, userRow.user.specialBet.semifinal1 )
+		createCell(row, 5, userRow.user.specialBet.semifinal2 )
+		createCell(row, 6, userRow.user.specialBet.semifinal3 )
+		createCell(row, 7, userRow.user.specialBet.semifinal4 )
+	}
+	
+	def createCell(row: HSSFRow, index: Int, player: Player){
+		val c = row.createCell(index)
+		val name = if(player == null) "" else player.lastName
+		c.setCellValue(name)
+	}
+	
+
+	def createCell(row: HSSFRow, index: Int, team: Team){
+		val c = row.createCell(index)
+		val name = if(team == null) "" else team.name
+		c.setCellValue(name)
 	}
 	
 	
@@ -78,17 +136,6 @@ class ExcelData {
         c = r.createCell(1)
 		c.setCellStyle( pointsHeading )
         c.setCellValue(new HSSFRichTextString("Points"))
-//        c.setCellValue(new HSSFRichTextString("TopScorer"))
-//        c = r.createCell(2)
-//		c.setCellStyle( userHeading )
-//        c.setCellValue(new HSSFRichTextString("Champion"))
-//        	c = r.createCell(1)
-//			c.setCellValue(new HSSFRichTextString(ur.user.specialBet.topscorer.lastName))
-//			c = r.createCell(2)
-//			c.setCellValue(new HSSFRichTextString(ur.user.specialBet.mvp.lastName))
-//			c = r.createCell(2)
-//			c.setCellValue(new HSSFRichTextString(ur.user.specialBet.mvp.lastName))
-			
 
 		for( index <-  0 until games.size ){
 			c = r.createCell((index + 2))

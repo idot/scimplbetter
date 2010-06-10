@@ -30,23 +30,19 @@ import java.awt.Color
 import org.jfree.chart.renderer.category.StandardBarPainter
 
 object BetStatsChart {
-	val dim = 200
+	val dim = 150
 	object BetStatsChart {
 		def unapply(in: String): Some[Array[Byte]] = {
 			tryo(in.toInt) match {
 				case Full(nr) => { 
-					println("full "+nr + " " + dim)
 					val bets = GameRepository.betsForGameNr(nr)
-					println("betssize " + bets.size)
 					val bet1 = bets.map(_.goalsTeam1)
 					val bet2 = bets.map(_.goalsTeam2)
-					val charto = new SimpleChart(bet1, bet2, "", "")
+					val charto = new SimpleChart(bet1, bet2, "team1", "team2")
 					val chartp = charto.createChart
-					val buff = chartp.createBufferedImage(dim,dim)
-					Some(ChartUtilities.encodeAsPNG(buff))
+					Some(ChartUtilities.encodeAsPNG(chartp))
 				}
 				case _ => {
-					println("empty")
 					val default = new BufferedImage(dim, dim, BufferedImage.TYPE_INT_RGB)
 					Some(ChartUtilities.encodeAsPNG(default))
 				}
@@ -78,15 +74,11 @@ class SimpleChart(betsTeam1: Seq[Option[Int]], betsTeam2: Seq[Option[Int]], team
 	def createDataSet() = {
 		val data = new DefaultKeyedValues2DDataset()
 		val indices = bets1.keys.toList.sorted.reverse
-		println(bets1.mkString(" "))
-		println(bets2.mkString(" "))
 		for(ind <- indices){
 			bets1.get(ind) match{ 
 				case Some(c) => data.addValue(-c, team1, ind.toString)
 				case _ => 
 			}
-		}
-		for(ind <- indices){
 			bets2.get(ind) match{ 
 				case Some(c) => data.addValue(c, team2, ind.toString)
 				case _ =>
@@ -106,8 +98,10 @@ class SimpleChart(betsTeam1: Seq[Option[Int]], betsTeam2: Seq[Option[Int]], team
 		renderer.setBarPainter(new StandardBarPainter())
 		renderer.setShadowVisible(false)
 		renderer.setDrawBarOutline(false)
-		chart
+		 chart.createBufferedImage(BetStatsChart.dim,BetStatsChart.dim)
 	}
+	
+	
 }
 
 
@@ -125,19 +119,14 @@ object doChart {
 	
     def main(ars: Array[String]){
     	//val seq = List(1,2,3,4,1,2,3,1,2,12,3,3,1,2,0,0,0).map(Some(_))
-    	val seq1 = List(Some(5))
+    	val seq1 = List(Some(5),Some(3),Some(2),Some(4))
     	val seq2 = List(Some(1))
     	val charto = new SimpleChart(seq1,seq2, "team1","team2")
     	val chart = charto.createChart
-    	val buff = chart.createBufferedImage(200,200)
-		val png = ChartUtilities.encodeAsPNG(buff)
+		val png = ChartUtilities.encodeAsPNG(chart)
 		val wr = new java.io.FileOutputStream("testFile.png")
     	wr.write(png)
     	wr.close
-    	val frame = new org.jfree.ui.ApplicationFrame("test")
-    	frame.setContentPane(new ChartPanel(chart))
-    	frame.pack()
-    	frame.setVisible(true)
     
     }
 }

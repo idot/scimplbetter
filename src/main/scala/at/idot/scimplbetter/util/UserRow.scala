@@ -38,10 +38,24 @@ class UserRowCreator{
 	
 }
 
-
-
-case class UserRow(user: User, games: Row, pointsPerGame: Row, cumulatedPoints: Row, firstGoals: Row, secondGoals: Row, resultFirstTeam: Row, resultSecondTeam: Row ){
+trait Leading {
 	var leader = false
+}
+
+//should be user + cumulative points for evaluated games
+//TODO
+//chart at statistics/points
+case class UserPointsToNow(user: User, cumulatedPoints: Row) extends Leading {
+	
+}
+
+object UserPointsToNow {
+	
+	
+}
+
+case class UserRow(user: User, games: Row, pointsPerGame: Row, cumulatedPoints: Row, firstGoals: Row, secondGoals: Row, resultFirstTeam: Row, resultSecondTeam: Row ) extends Leading {
+	
 }
 
 object UserRow {

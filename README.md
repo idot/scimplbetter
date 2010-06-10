@@ -23,6 +23,7 @@ The actual key is in files/levels.txt and determines at runtime the points/round
 1. download by cloning git clone git://github.com/idot/scimplbetter.git
 2. cd into git dir
 3. mvn jetty:run
+4. log in as username1/password1 (1..8) 8 == admin user
 
 #for real (real db, your users):
 1. download by cloning git clone git://github.com/idot/scimplbetter.git
@@ -43,7 +44,7 @@ The actual key is in files/levels.txt and determines at runtime the points/round
 
 
 ## hints 
-Please set the correct timezone in Boot. 
+Please set the correct timezone upon startup of you container.
 I guess you will also have to change the time of the games in the file
 files/fifa_2010.tab. The scimplebetter always compares the date as
 it is in the database with local time as returned by new Date()
@@ -51,9 +52,6 @@ it is in the database with local time as returned by new Date()
 
 ## TODO 
 Missing functionality:
-Deadline 20100610:
-1. tested game results submission
-2. set correct timezone programatically or on startup with -Dtimezone
 
 Deadline end of group phase:
 1. entry for special bets results

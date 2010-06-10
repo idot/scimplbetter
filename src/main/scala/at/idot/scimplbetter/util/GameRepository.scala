@@ -17,10 +17,10 @@ import java.util.Calendar
 import at.idot.scimplbetter.model.BetterSettings
 
 object GameRepository extends LocalEMF("better2010",false) with ThreadLocalEM { //no user transaction
-	   lazy val specialBetsDeadLine = getSpecialBetsDeadLine()
+	   lazy val firstGameTime = getFirstGameTime()
 	   	
 	   def specialBetsClosed(): Boolean = {
-	  	   BetterSettings.closed(specialBetsDeadLine, BetterSettings.now)
+	  	   BetterSettings.closed(firstGameTime, BetterSettings.now)
 	   }
 	
 	   def allGames(): Seq[Game] = {
@@ -300,7 +300,7 @@ object GameRepository extends LocalEMF("better2010",false) with ThreadLocalEM { 
 	     }
 	     
 	     //start of worldcup
-	     def getSpecialBetsDeadLine(): Calendar = {
+	     def getFirstGameTime(): Calendar = {
 	        val em = newEM
 	  	    val games = em.createQuery[Game]("from Game as game order by game.date").setMaxResults(1).getResultList
 	  	    em.close()
@@ -312,5 +312,35 @@ object GameRepository extends LocalEMF("better2010",false) with ThreadLocalEM { 
 	  	    }
 	     }
 	     
+	     def getMVPs(): Seq[Player] = {
+	    	val em = newEM
+	  	    val players = em.createQuery[Player]("select user.specialBet.mvp from User as user").getResultList
+	  	    em.close()
+	  	    players
+	     }
+	     
+	     def getTopScorers(): Seq[Player] = {
+	    	val em = newEM
+	  	    val players = em.createQuery[Player]("select user.specialBet.topscorer from User as user").getResultList
+	  	    em.close()
+	  	    players
+	     }
+	     
+	     def getChampions(): Seq[Team] = {
+	    	val em = newEM
+	  	    val teams = em.createQuery[Team]("select user.specialBet.winningTeam from User as user").getResultList
+	  	    em.close()
+	  	    teams
+	     }
 	
+	     def getSemifinalists(): Seq[Team] = {
+	    	val em = newEM
+	  	    val s1 = em.createQuery[Team]("select user.specialBet.semifinal1 from User as user").getResultList
+	  	    val s2 = em.createQuery[Team]("select user.specialBet.semifinal2 from User as user").getResultList
+	  	    val s3 = em.createQuery[Team]("select user.specialBet.semifinal3 from User as user").getResultList
+	  	    val s4 = em.createQuery[Team]("select user.specialBet.semifinal4 from User as user").getResultList
+	  	    em.close()
+	  	    s1 ++ s2 ++ s3 ++ s4
+	     }
+	     
 }

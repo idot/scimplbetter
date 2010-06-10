@@ -19,6 +19,8 @@ class SpecialBet {
     //hibernate needs this in case all other properties are null
     var hibernateDummy = "a" 
     
+    //a many to many with max 4 per user would have been much better, then constraints on uniqueness
+    //etc.. could have been enforced
     @ManyToOne
     var semifinal1: Team = _
     

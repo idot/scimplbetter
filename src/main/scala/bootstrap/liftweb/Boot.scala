@@ -18,6 +18,7 @@ import net.liftweb.util.Helpers._
 import at.idot.scimplbetter.snippet.BetStatsChart
 import at.idot.scimplbetter.snippet.ExcelSheet
 import at.idot.scimplbetter.model.BetterSettings
+import at.idot.scimplbetter.snippet.ChartsDispatch
 
 /**
  * A class that's instantiated early and run.  It allows the application
@@ -27,11 +28,12 @@ class Boot {
   def boot {
 	  
 	//we set the correct timezone right from the start!!
-    System.setProperty("user.timezone","Europe/Vienna")
-    System.setProperty("user.timezone","Europe/Vienna")
+    //System.setProperty("user.timezone","Europe/Vienna")
+    //System.setProperty("user.timezone","Europe/Vienna")
+	 //this does not work must make -Duser.timezone
     printCurrentTime()
 //uncomment importDummy() to import the games and users from the files directory
-    importDummy()
+importDummy()
     
     
     
@@ -39,6 +41,7 @@ class Boot {
     LiftRules.addToPackages("at.idot.scimplbetter")
     
     val statistics = 
+  //  	Menu(Loc("points",List("statistics","points"),"points")) ::
 		Menu(Loc("graph",List("statistics","all"), "graph")) ::
 		Menu(Loc("excel",List("statistics","excel"), "excel" )) :: Nil
 
@@ -128,12 +131,14 @@ class Boot {
     
     LiftRules.dispatch.append(BetStatsChart.matcher) 
     LiftRules.dispatch.append(ExcelSheet.matcher)
- 
+    LiftRules.dispatch.append(ChartsDispatch.matcher)
   }
 
   def printCurrentTime(){
-	  val time = "current java time (timezone) is: " + new java.util.Date() + ". Seems like you can change this in Boot"
-	  val string = "**********************\n**"+time+"****\n***********************\n"
+	  val time = "  current java time (timezone) is: " + new java.util.Date() + ". Seems like you cant change this in Boot, change with -Duser.timezone=  "
+	  val gamesStart =  GameRepository.firstGameTime.getTime
+	  val startString = "**** games start time : " + gamesStart + " ************\n"
+	  val string = "**********************\n**"+time+"****\n"+startString+"***********************\n"
 	  System.out.println(string)
   }
   

@@ -82,7 +82,7 @@ class Users {
 		def pageHeader(xhtml: NodeSeq): NodeSeq = {
 			if(ogame.isDefined){
 				val game = ogame.get
-				Text("all users and bets for "+game.firstTeam.name+" - "+game.secondTeam.name+" "+game.datePrettyPrint)
+				Text("bets for "+game.firstTeam.name+" - "+game.secondTeam.name+" "+game.datePrettyPrint)
 			}
 			else{
 				Text("all users")
@@ -91,7 +91,7 @@ class Users {
 		
 		
 		bind("user",xhtml,
-			"betstats" -> NodeSeq.Empty, // (if(requestedGameNr != "") <img src={"/betstats/"+requestedGameNr}/> else NodeSeq.Empty ),
+			"betstats" -> (if(requestedGameNr != "") <img src={"/betstats/"+requestedGameNr}/> else NodeSeq.Empty ),
 			"pageHeader" -> pageHeader _,
 			"pointsHeader" -> (if(requestedGameNr != "") <th>{"points "+requestedGameNr}</th> else NodeSeq.Empty ),
 			"betsHeader" -> (if(requestedGameNr != "") <th>{"bets for Nr."+requestedGameNr}</th> else NodeSeq.Empty ),
