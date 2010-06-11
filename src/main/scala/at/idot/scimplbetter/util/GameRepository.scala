@@ -16,7 +16,7 @@ import net.liftweb.jpa.RequestVarEM
 import java.util.Calendar
 import at.idot.scimplbetter.model.BetterSettings
 
-object GameRepository extends LocalEMF("better2010",false) with ThreadLocalEM { //no user transaction
+object GameRepository extends LocalEMF("better2010",false) with ThreadLocalEM with Logger { //no user transaction
 	   lazy val firstGameTime = getFirstGameTime()
 	   	
 	   def specialBetsClosed(): Boolean = {
@@ -261,6 +261,10 @@ object GameRepository extends LocalEMF("better2010",false) with ThreadLocalEM { 
              for(game <- games){
                   for(bet <- game.bets){
                        val points = bet.calculatePoints
+                       bet.points = points match {
+                	  	   case Some(points) => points
+                	  	   case _ => 0
+                	   }
                        val user = bet.user
                        user.points += bet.points
                        em.merge(user)

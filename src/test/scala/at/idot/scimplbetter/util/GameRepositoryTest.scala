@@ -17,7 +17,7 @@ import at.idot.scimplbetter.snippet.BetSelect
 class GameRepositoryTest {
   private val log = LoggerFactory getLogger(getClass)
 
-  @Test
+  @Before
   def loadData () = {
 		val importer = new ImportData()
 		importer.importGames()
@@ -29,7 +29,7 @@ class GameRepositoryTest {
 		assertEquals(8, users.size)
   }	
 
-  //@Test
+  @Test
   def exercising () = {
 
 	  
@@ -39,7 +39,7 @@ class GameRepositoryTest {
     val gamesWithBets = GameRepository.gamesAndBetsFromUser(user.get)                                         
     assertEquals("no bets:", 48, gamesWithBets.size)
     val actualBets = gamesWithBets.map(_._2).flatten //all with something now
-    assertEquals("betsize 1", 0, actualBets.size)
+    assertEquals("betsize 1", 48, actualBets.size)
  
     GameRepository.createBetsForGamesWithoutBetsForUser(GameRepository.findUserByUserName("username1").get)
     
@@ -51,11 +51,11 @@ class GameRepositoryTest {
     //bet a little bit
     val bet = gamesWithBets2.head._2.get
     assertEquals(bet.user.userName , user.get.userName)
-    assertEquals(bet.goalsTeam1, None)
-    assertEquals(bet.goalsTeam2, None)
-    assertFalse(bet.validBet)
+    assertEquals(bet.goalsTeam1, Some(2))
+    assertEquals(bet.goalsTeam2, Some(3))
+    assertFalse(!bet.validBet)
     bet.goalsTeam1 = Some(2)
-    bet.goalsTeam2 = Some(1)
+    bet.goalsTeam2 = Some(3)
     assertTrue(bet.validBet)
     
     val em = GameRepository.newEM
@@ -72,14 +72,35 @@ class GameRepositoryTest {
     assertEquals(bet2.user.userName , user.get.userName)
     assertTrue(bet2.validBet)
     assertEquals(bet2.goalsTeam1, Some(2))
-    assertEquals(bet2.goalsTeam2, Some(1))
+    assertEquals(bet2.goalsTeam2, Some(3))
+    
+    val game = bet2.game 
+    game.result.goalsTeam1 = 2
+    game.result.goalsTeam2 = 3
+    game.result.setted = true
+    
+    
+    val em2 = GameRepository.newEM
+    em2.mergeAndFlush(game)
+    em2.close()
+    
+    GameRepository.calculatePoints()
+    
+    val userWithPoints = GameRepository.findUserByUserName("username1").get
+    assertEquals(3, userWithPoints.points )
+    
     
     //calculate points //check saving and retrieving of points points per user
     //unit test points calculation for bets extra!
 
+    
+    
+    
+    
+    
   }
   
-  @Test
+  //@Test
   def createExcel {
 
 	  val excelData = new ExcelData()

@@ -104,7 +104,8 @@ class Chat extends CometActor with CometListener {
 			this.gravatarDefault = "monsterid"
     	}
      }
-     render
+     //render
+    reRender(true)
   }
   
 

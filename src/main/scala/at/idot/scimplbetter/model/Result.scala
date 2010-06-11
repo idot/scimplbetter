@@ -10,6 +10,8 @@ class Result {
      var goalsTeam1 :Int = _
      var goalsTeam2 :Int = _
      var setted: Boolean = _
+     
+     override def toString() = goalsTeam1 +":"+goalsTeam2
 }
 
 object Result {

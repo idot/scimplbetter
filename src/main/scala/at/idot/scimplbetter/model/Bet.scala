@@ -83,7 +83,7 @@ class Bet {
     	  else{
     	 	  0
     	}
-    	Some(points)
+    	Some(calc)
      }     
      
      def validBet = goalsTeam1.isDefined && goalsTeam2.isDefined
