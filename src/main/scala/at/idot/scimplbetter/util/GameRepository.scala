@@ -261,6 +261,7 @@ object GameRepository extends LocalEMF("better2010",false) with ThreadLocalEM wi
              for(game <- games){
                   for(bet <- game.bets){
                        val points = bet.calculatePoints
+                       bet.calculated = true
                        bet.points = points match {
                 	  	   case Some(points) => points
                 	  	   case _ => 0

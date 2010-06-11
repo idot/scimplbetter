@@ -88,11 +88,12 @@ class GameRepositoryTest {
     
     val userWithPoints = GameRepository.findUserByUserName("username1").get
     assertEquals(3, userWithPoints.points )
-    
-    
+    val gamesWithBets4 = GameRepository.gamesAndBetsFromUser(userWithPoints)
+    val bet3 = gamesWithBets4.head._2.get
+    assertTrue(bet3.calculated )
+    assertEquals(3, bet3.points )
     //calculate points //check saving and retrieving of points points per user
     //unit test points calculation for bets extra!
-
     
     
     
