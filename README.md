@@ -1,3 +1,10 @@
+# Only for history. This is dead unmaintained code.
+#
+# superseded by https://github.com/idot/betterplay which uses play2.3 slick and angular
+
+
+
+
 #scimplbetter
 
 the (simple) scala implementation better is a betting system designed for small groups of
